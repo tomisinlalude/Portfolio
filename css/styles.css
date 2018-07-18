@@ -1,0 +1,130 @@
+
+body {
+	margin: 5% 10% 0 10%;  
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+
+img {
+	margin-top: 3%;
+}
+
+.placeholder {
+	width: 100%; 
+	text-align: center;
+	line-height: 17em;
+	font-size: 1.2em;
+}
+
+/*
+ *
+ * Header
+ *
+ */
+#header-logo {
+	margin-top: 7%;
+}
+
+#header-info {
+	margin-top: 6%;
+}
+
+.header--logo {
+	width: 100px; 
+	height: 100px;
+	line-height: 10em;
+}
+
+h1 {
+	font-weight: 700;
+	margin-top: 0;
+	background: -webkit-linear-gradient(35deg, red, silver);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+small {
+	font-weight: 500;
+	margin-top: 0;
+	margin-left: 18%;
+}
+
+/*
+ *
+ * Horizontal rule
+ *
+ */
+
+.horizontal-rule {
+	width: 100%;
+	height: 0.3em;
+	background: red;
+}
+
+/*
+ *
+ * Image
+ *
+ */
+
+.major-image {
+	min-width: 100%;
+	min-height: 25em;
+	background: -webkit-linear-gradient(25deg, red, silver);
+}
+
+/*
+ *
+ * Featured Works
+ *
+ */
+
+h2 { 
+	font-weight: 400;
+	color: red;
+	margin-left: 0;
+	font-size: 1.5em;
+}
+
+p {
+	font-size: 1.5em;
+}
+
+h3 { 
+	text-align: center; 
+	margin-top: 2%;
+	font-size: 1.5em;
+}
+
+a {
+	min-width: 3em;
+	min-height: 3em;
+	display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.minor-image {
+	height: 210px;
+	width: 100%; 
+	margin: 0 3%;
+}
+
+/*
+ *
+ * Footer
+ *
+ */
+
+.footer-bg {
+	background: silver;
+	height: 5vh;
+	width: 5vh;
+
+}

@@ -1,0 +1,200 @@
+
+.col-1 {
+	width: 8.33%;
+}
+.col-2 {
+	width: 16.66%;
+}
+.col-3 {
+	width: 25%;
+}
+.col-4 {
+	width: 33.33%;
+}
+.col-5 {
+	width: 41.66%;
+}
+.col-6 {
+	width: 50%;
+}
+.col-7 {
+	width: 58.33%;
+}
+.col-8 {
+	width: 66.66%;
+}
+.col-9 {
+	width: 75%;
+}
+.col-10 {
+	width: 83.33%;
+}
+.col-11 {
+	width: 91.66%;
+}
+.col-12 {
+	width: 100%;
+}
+
+.row {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+/* Responsiveness For large screens */
+@media screen and (min-width: 841px) {
+
+	.lg-col-1 {
+		width: 8.33%;
+	}
+	.lg-col-2 {
+		width: 16.66%;
+	}
+	.lg-col-3 {
+		width: 25%;
+	}
+	.lg-col-4 {
+		width: 33.33%;
+	}
+	.lg-col-5 {
+		width: 41.66%;
+	}
+	.lg-col-6 {
+		width: 50%;
+	}
+	.lg-col-7 {
+		width: 58.33%;
+	}
+	.lg-col-8 {
+		width: 66.66%;
+	}
+	.lg-col-9 {
+		width: 75%;
+	}
+	.lg-col-10 {
+		width: 83.33%;
+	}
+	.lg-col-11 {
+		width: 91.66%;
+	}
+	.lg-col-12 {
+		width: 100%;
+	}
+}
+/* Responsiveness For mid-sized screens */
+@media screen and (min-width: 600px) and (max-width: 840px){
+
+	.md-col-1 {
+		width: 8.33%;
+	}
+	.md-col-2 {
+		width: 16.66%;
+	}
+	.md-col-3 {
+		width: 25%;
+	}
+	.md-col-4 {
+		width: 33.33%;
+	}
+	.md-col-5 {
+		width: 41.66%;
+	}
+	.md-col-6 {
+		width: 50%;
+	}
+	.md-col-7 {
+		width: 58.33%;
+	}
+	.md-col-8 {
+		width: 66.66%;
+	}
+	.md-col-9 {
+		width: 75%;
+	}
+	.md-col-10 {
+		width: 83.33%;
+	}
+	.md-col-11 {
+		width: 91.66%;
+	}
+	.md-col-12 {
+		width: 100%;
+	}
+}
+
+
+/* Responsiveness For small-sized screens */
+@media screen and (max-width: 599px){
+
+	.sm-col-1 {
+		width: 8.33%;
+	}
+	.sm-col-2 {
+		width: 16.66%;
+	}
+	.sm-col-3 {
+		width: 25%;
+	}
+	.sm-col-4 {
+		width: 33.33%;
+	}
+	.sm-col-5 {
+		width: 41.66%;
+	}
+	.sm-col-6 {
+		width: 50%;
+	}
+	.sm-col-7 {
+		width: 58.33%;
+	}
+	.sm-col-8 {
+		width: 66.66%;
+	}
+	.sm-col-9 {
+		width: 75%;
+	}
+	.sm-col-10 {
+		width: 83.33%;
+	}
+	.sm-col-11 {
+		width: 91.66%;
+	}
+	.sm-col-12 {
+		width: 100%;
+	}
+}
+/* Responsiveness For phones */
+@media screen and (max-width: 599px){
+	body {
+	margin: 0 5% 0 5%;
+}
+	h1 {
+		font-size: 20px;
+		margin-top: 30%;
+	}
+}
+/* Responsiveness For tablets */
+@media screen and (min-width: 930px) and (max-width: 1030px) {
+	#codepen-image {
+	margin: 0 15%;
+	}
+	#github-image {
+	margin: 0 15%;
+	}
+	#nodejs-image {
+	margin: 0 15%;
+	}
+}
