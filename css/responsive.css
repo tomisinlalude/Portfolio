@@ -36,12 +36,6 @@
 	width: 100%;
 }
 
-.row {
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-}
-
 .text-right {
 	text-align: right;
 }
@@ -52,6 +46,11 @@
 
 .text-left {
 	text-align: left;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
 }
 
 /* Responsiveness For large screens */
@@ -95,7 +94,7 @@
 	}
 }
 /* Responsiveness For mid-sized screens */
-@media screen and (min-width: 600px) and (max-width: 840px){
+@media screen and (min-width: 600px) and (max-width: 840px) {
 
 	.md-col-1 {
 		width: 8.33%;
@@ -137,7 +136,7 @@
 
 
 /* Responsiveness For small-sized screens */
-@media screen and (max-width: 599px){
+@media screen and (max-width: 599px) {
 
 	.sm-col-1 {
 		width: 8.33%;
@@ -176,25 +175,43 @@
 		width: 100%;
 	}
 }
-/* Responsiveness For phones */
-@media screen and (max-width: 599px){
-	body {
-	margin: 0 5% 0 5%;
+
+@media screen and (min-width: 681px) {
+    .row {
+    	width: 80%;
+    	margin-left: auto;
+    	margin-right: auto;
+	}
 }
+
+@media screen and (min-width: 600px) and (max-width: 980px) {
+	.main {
+		justify-content: space-between;
+		margin-right: 15%;
+	}
+}
+
+@media screen and (min-width: 460px) {
 	h1 {
-		font-size: 20px;
-		margin-top: 30%;
-	}
+    	font-size: 23px;
+  	}
 }
-/* Responsiveness For tablets */
-@media screen and (min-width: 930px) and (max-width: 1030px) {
-	#codepen-image {
-	margin: 0 15%;
-	}
-	#github-image {
-	margin: 0 15%;
-	}
-	#nodejs-image {
-	margin: 0 15%;
-	}
+
+@media screen and (min-width: 401px) and (max-width: 680px) {
+ 	.header-info {
+    	width: 90%;
+    }
+    p {
+    	margin-left: 2%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+ 	.header-info {
+    	text-align: center;
+    }
+
+    .row {
+		justify-content: center;
+  	}
 }
