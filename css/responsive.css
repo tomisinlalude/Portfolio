@@ -11,6 +11,9 @@
   .featured-works {
     text-align: left;
   }
+  .card:last-of-type {
+    	margin-top: 2%;
+  }
 }
 
 @media screen and (max-width: 635px) {
