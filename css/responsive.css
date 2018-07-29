@@ -14,10 +14,6 @@
 }
 
 @media screen and (max-width: 635px) {
-  .card {
-    margin-bottom: 2%;
-  }
-
   .featured-works {
     font-size: 25px;
   }
