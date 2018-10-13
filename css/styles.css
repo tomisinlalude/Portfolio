@@ -86,7 +86,6 @@ small {
 .card {
 	min-width: 200px;
 	width: 25%;
-	height: 20%;
 	margin: 0 10px 0 0;
 	border: 2px solid red;
 	border-radius: 2%;
