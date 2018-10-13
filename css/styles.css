@@ -1,4 +1,5 @@
 
+
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -86,7 +87,6 @@ small {
 .card {
 	min-width: 200px;
 	width: 25%;
-	height: 30% !important;
 	margin: 0 10px 0 0;
 	border: 2px solid red;
 	border-radius: 2%;
