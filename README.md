@@ -9,7 +9,7 @@ For specific, detailed instructions, look at the project instructions in the [Ud
 
 ## Live Demo
 
-For live demo, [Click here](https://laludztee.github.io/Portfolio/) for the link to the github page.
+For live demo, [Click here](https://oluwatomisinlalude.github.io/Portfolio/) for the link to the github page.
 
 ## Contributing
 
